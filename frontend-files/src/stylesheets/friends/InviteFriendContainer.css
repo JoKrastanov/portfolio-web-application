@@ -1,0 +1,43 @@
+
+
+.invite-friend-container-parent {
+    position: relative;
+}
+
+.invite-friend-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    top: 50%;
+    transform: translateY(-60%);
+    left: 20px;
+    width: calc(325px - 55px);
+}
+
+#invite-friend-container-user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 90%;
+}
+
+#invite-friend-container-btn {
+    width: 10%;
+}
+
+.invite-friend-container p {
+    font-size: 15px;
+}
+
+.invite-friend-container img {
+    border-radius: 50%;
+    height: 40px;
+    width: auto;
+}
+
+.invite-friend-container i {
+    font-size: 20px;
+}
